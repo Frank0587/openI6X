@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"sound": true,
+			"launchpad": true,
+			"radio/src/gui/212x64": true,
+			"radio/src/gui/480x272": true,
+			"radio/data": true,
+			"radio/sdcard": true
+		},
+		"explorerExclude.backup": {}
+	}
+}

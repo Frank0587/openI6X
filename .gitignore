@@ -9,7 +9,6 @@ cmake-build-*/
 /debian/
 /CMakeFiles/*
 radio/src/CmakeFiles/*
-/.vscode/
 *.cmake
 *.make
 *.marks
