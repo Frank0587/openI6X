@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "BOARD_NAME=i6x",
+                "CMAKE_FLAGS=PCB=I6X",
+                "PCB=I6X",
+                "HELI=NO",
+                "GVARS=YES",
+                "LUA_COMPILER=NO",
+                "MULTIMODULE=NO",
+                "PCBI6X_ELRSV3=NO",
+                "PCBI6X_BACKLIGHT_MOD=YES",
+                "DEBUG=NO",
+                "PPM_UNIT=PERCENT_PREC0",
+                "PCBI6X_INAV=NO",
+                "PCBI6X_USB_VBUS=NO",
+                "PCBI6X_USB_MSD=YES",
+                "AFHDS2A_LQI_CH=17",
+                "TRANSLATIONS=DE",
+                "PCBI6X_HELLO=NO"
+            ],
+            "compilerPath": "C:\\Progs\\MinGW32\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "browse": {
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
