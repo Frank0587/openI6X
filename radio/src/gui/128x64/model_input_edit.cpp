@@ -39,6 +39,8 @@ void drawFunction(FnFuncP fn, uint8_t offset)
 
   for (int xv=-CURVE_SIDE_WIDTH; xv<=CURVE_SIDE_WIDTH; xv++) {
     coord_t yv = (LCD_H-1) - (((uint16_t)RESX + fn(xv * (RESX/CURVE_SIDE_WIDTH))) / 2 * (LCD_H-1) / RESX);
+    yv = limit (0, yv, LCD_H-1);
+    
     if (prev_yv != (coord_t)-1) {
       if (abs((int8_t)yv-prev_yv) <= 1) {
         lcdDrawPoint(CURVE_CENTER_X+xv-offset-1, prev_yv, FORCE);
